@@ -1,7 +1,7 @@
 # RCode_transportability
 The folders and the R code help to reproducing Tables 2-4 and Figures 1-2  in the article "Transporting randomized trial results to estimate counterfactual survival functions in target populations" by Zhiqiang Cao, Youngjoo Cho and Fan Li (under review) 
 
-For questions or comments about the code, please contact Zhiqiang Cao<zcaoae@connect.ust.hk> or Fan Li at <fan.f.li@yale.edu>. 
+For questions or comments about the code, please contact Zhiqiang Cao <zcaoae@connect.ust.hk> or Fan Li at <fan.f.li@yale.edu>. 
 You will need to change the directory to use the example code in script example_analysis.R This folder includes the following functions:
 
 I. gen_true_value_for_delta.R is to determine ture value of delta(t) for three specified survival times in simulations 
