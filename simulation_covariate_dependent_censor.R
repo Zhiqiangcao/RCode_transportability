@@ -11,7 +11,7 @@ library(survey)
 #setwd("C:/Users/user/Dropbox/research/generability/R_code_generability_bai/submission")
 N <- 1000000
 
-nsim = 1000
+nsim = 5000
 cen.rate <- rep(0,nsim)
 ipw.su.est.ATE <- matrix(0,ncol=3,nrow=nsim)
 ipw.su.se.ATE <- matrix(0,ncol=3,nrow=nsim)
@@ -120,6 +120,8 @@ for(v in 1:nsim){
   resp <- c(S[S==1],S[S==0][D==1])
   xall <- rbind(rctsamp[,4:6],svx)
   sweight <- c(rep(1,n),1/(p_selD[which(D==1),]))
+  #if we don't use survey weights, then we set p_selD[which(D==1),]=1, i.e.,
+  #sweight <- c(rep(1,n),rep(1,m))
   dat.cb<- data.frame(resp=resp,x1cb = xall[,1],x2cb = xall[,2],x3cb = xall[,3],sweight=sweight)
   id <- 1:(dim(dat.cb)[1])
   m <- dim(svx)[1]
