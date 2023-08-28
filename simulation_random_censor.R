@@ -10,7 +10,7 @@ library(survey)
 #setwd("C:/Users/user/Dropbox/research/generability/R_code_generability_bai/submission")
 
 N <- 1000000
-nsim = 1000
+nsim = 5000
 cen.rate <- rep(0,nsim)
 ipw.su.est.ATE <- matrix(0,ncol=3,nrow=nsim)
 ipw.su.se.ATE <- matrix(0,ncol=3,nrow=nsim)
