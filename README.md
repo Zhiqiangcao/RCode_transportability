@@ -1,5 +1,5 @@
 # RCode_transportability
-The folders and the R code help to reproducing Tables 2-4 and Figures 1-2  in the article "Transporting randomized trial results to estimate counterfactual survival functions in target populations" by Zhiqiang Cao, Youngjoo Cho and Fan Li published by Pharmaceutical Statistics (https://onlinelibrary.wiley.com/doi/10.1002/pst.2354)
+The folders and the R code help to reproducing Tables 2-4 and Figures 1-2  in the article "Transporting randomized trial results to estimate counterfactual survival functions in target populations" by Zhiqiang Cao, Youngjoo Cho and Fan Li published in Pharmaceutical Statistics (https://onlinelibrary.wiley.com/doi/10.1002/pst.2354)
 
 For questions or comments about the code, please contact Zhiqiang Cao <zcaoae@connect.ust.hk> or Fan Li at <fan.f.li@yale.edu>. 
 You will need to change the directory to use the example code in script R code. This folder includes the following functions:
